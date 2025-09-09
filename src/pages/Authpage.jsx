@@ -44,8 +44,8 @@ function Authpage() {
               />
             )}
             <input
-              type='text'
-              placeholder='Manufacturer ID'
+              type='email'
+              placeholder='Email'
               className='border p-2 rounded'
             />
             <input
