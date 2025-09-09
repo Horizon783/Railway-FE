@@ -46,7 +46,7 @@ function App() {
         {isAuthenticatedManufacturer && (
           <Route path='/dashboard2' element={<Dashboard2 />}>
             <Route index element={<MHome />} />
-            <Route path='parts' element={<MParts />} />
+            <Route path='part' element={<MParts />} />
             <Route path='qr' element={<MQR />} />
             <Route path='vendor' element={<MVendor />} />
           </Route>

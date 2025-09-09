@@ -27,7 +27,7 @@ function Parts() {
     try {
       // API call (backend URL dalna padega)
       const res = await axios.post(
-        "http://localhost:5000/api/parts",
+        "http://localhost:5000/api/part",
         formData,
         {
           headers: {

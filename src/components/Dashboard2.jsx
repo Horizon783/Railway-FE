@@ -27,7 +27,7 @@ function Dashboard2() {
             <IoHome size={18} /> Home
           </Link>
           <Link
-            to='/dashboard2/parts'
+            to='/dashboard2/part'
             className='flex items-center gap-2 hover:text-gray-400 transition'
           >
             <IoCubeOutline size={18} /> Parts
